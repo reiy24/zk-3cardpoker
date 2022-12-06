@@ -494,11 +494,13 @@ fn main() -> anyhow::Result<()> {
             println!("Player wins {} with flush.", pot);
             pot = 0;
         }
+        return Ok(());
     }
     else if dealer_card_0.suite == dealer_card_1.suite && dealer_card_1.suite == dealer_card_2.suite {
         dealer_balance = dealer_balance + pot;
         println!("Dealer wins {} with flush.", pot);
         pot = 0;
+        return Ok(());
     }
 
     // Check whether either player has a pair.
@@ -520,11 +522,13 @@ fn main() -> anyhow::Result<()> {
             println!("Player wins {} with pair.", pot);
             pot = 0;
         }
+        return Ok(());
     }
     else if dealer_card_0.value == dealer_card_1.value || dealer_card_1.value == dealer_card_2.value {
         dealer_balance = dealer_balance + pot;
         println!("Dealer wins {} with pair.", pot);
         pot = 0;
+        return Ok(());
     }
 
     // Check whether either player has a high card.
