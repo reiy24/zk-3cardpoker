@@ -371,7 +371,7 @@ fn main() -> anyhow::Result<()> {
         Err(_) => return Ok(()),
     };
 
-    if wager > ante && wager <= player_balance {
+    if wager >= ante && wager <= player_balance {
         player_balance = player_balance - wager;
         pot = pot + wager;
     }
