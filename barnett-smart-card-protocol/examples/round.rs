@@ -355,6 +355,8 @@ fn main() -> anyhow::Result<()> {
         println!("Insufficent funds!");
         return Ok(());
     }
+
+    println!("Player: {:?} {:?} {:?}", player.opened_cards[0].unwrap(), player.opened_cards[1].unwrap(), player.opened_cards[2].unwrap());
     
     println!("How much would the player like to bet? Note that it must be greater than the ante of {}. Bet 0 to fold.", ante);
 
