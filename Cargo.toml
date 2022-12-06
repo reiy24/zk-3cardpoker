@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "barnett-smart-card-protocol"
+]
+
+[net]
+git-fetch-with-cli = true
