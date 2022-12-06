@@ -9,6 +9,8 @@ Future directions include:
 3.	On-chain implementation of the above game using smart contracts to ensure the trustless settlement of bets and provably fair game set-ups. 
 4.	Expansion to other card games like Texas Hold’em, blackjack, etc. 
 
+[Short 10 Minute Presentation Video](https://drive.google.com/file/d/1FutYBJEoM8OvkUcmsz_Tow9znefrAKSB/view?usp=share_link)
+
 Excerpts of their README are below:
 
 ## Introduction
