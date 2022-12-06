@@ -1,4 +1,6 @@
-# Mental Poker
+# ZK-3Poker
+
+This is a basic version of [Three Card Poker](https://www.wikiwand.com/en/Three_Card_Poker) built on Geometry Research's Mental Poker Protocol. Excerpts of their README is below:
 
 ## Introduction
 
@@ -8,14 +10,13 @@ The protocol depends on an elliptic curve, without further requirements such as 
 
 A series of posts explaining the protocol and our approach to implementing it are available in the [Geometry Notebook](https://geometryresearch.xyz/notebook). [Part 1](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-1) covers the protocol and primitives from a high level, [Part 2](https://geometryresearch.xyz/notebook/mental-poker-in-the-age-of-snarks-part-2) goes into some of the math.
 
-
 ## Matchbox collaboration
 
 This library is developed as part of the collaboration between Geometry and Matchbox, and is designated as Geometry - MatchBox Proof 1. 
 
 ## Running the example
 
-An example showing how to encode, hide, shuffle and distribute cards is provided under [`mental-poker/barnett-smart-card-protocol/examples/round.rs`](https://github.com/geometryresearch/mental-poker/blob/main/barnett-smart-card-protocol/examples/round.rs). Run the example by running:
+A script running a round of Three Card Poker is provided under [`mental-poker/barnett-smart-card-protocol/examples/round.rs`](https://github.com/reiy24/zk-3poker/blob/main/barnett-smart-card-protocol/examples/round.rs). Run the example by running:
 
 ```
 cargo run --example round
