@@ -1,6 +1,15 @@
 # ZK-3Poker
 
-This is a basic version of [Three Card Poker](https://www.wikiwand.com/en/Three_Card_Poker) built on Geometry Research's Mental Poker Protocol. Excerpts of their README is below:
+This is a basic version of [Three Card Poker](https://www.wikiwand.com/en/Three_Card_Poker) built on Geometry Research's Mental Poker Protocol for submission to Harvard's Disrupt Hackathon (Dec 4-5, 2022). 
+
+The underlying protocol uses zero knowledge arguments to prove the validity of a shuffled deck, allowing for fair and trustless play of any card game with unknown participants. 
+Future directions include:
+1.	Creation of a UI for the games.
+2.	Optimizations for zero-knowledge arguments using recursive SNARKS to improve verification latency.
+3.	On-chain implementation of the above game using smart contracts to ensure the trustless settlement of bets and provably fair game set-ups. 
+4.	Expansion to other card games like Texas Hold’em, blackjack, etc. 
+
+Excerpts of their README is below:
 
 ## Introduction
 
